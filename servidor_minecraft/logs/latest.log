@@ -1,24 +1,24 @@
-[03:16:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:16:10] [ServerMain/INFO]: Loaded 7 recipes
-[03:16:11] [ServerMain/INFO]: Loaded 1271 advancements
-[03:16:11] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[03:16:11] [Server thread/INFO]: Loading properties
-[03:16:11] [Server thread/INFO]: Default game type: SURVIVAL
-[03:16:11] [Server thread/INFO]: Generating keypair
-[03:16:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:16:11] [Server thread/INFO]: Using epoll channel type
-[03:16:11] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[03:16:11] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[03:16:11] [Server thread/WARN]: Perhaps a server is already running on that port?
-[03:16:11] [Server thread/ERROR]: Encountered an unexpected exception
+[03:18:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:18:23] [ServerMain/INFO]: Loaded 7 recipes
+[03:18:23] [ServerMain/INFO]: Loaded 1271 advancements
+[03:18:24] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:18:24] [Server thread/INFO]: Loading properties
+[03:18:24] [Server thread/INFO]: Default game type: SURVIVAL
+[03:18:24] [Server thread/INFO]: Generating keypair
+[03:18:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:18:24] [Server thread/INFO]: Using epoll channel type
+[03:18:24] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[03:18:24] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[03:18:24] [Server thread/WARN]: Perhaps a server is already running on that port?
+[03:18:24] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.IllegalStateException: Failed to initialize server
 	at net.minecraft.server.MinecraftServer.w(SourceFile:684) ~[server-1.20.1.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:265) ~[server-1.20.1.jar:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[03:16:11] [Server thread/ERROR]: This crash report has been saved to: /workspaces/el-minecra/servidor_minecraft/./crash-reports/crash-2024-05-22_03.16.11-server.txt
-[03:16:11] [Server thread/INFO]: Stopping server
-[03:16:11] [Server thread/INFO]: Saving worlds
-[03:16:11] [Server thread/ERROR]: Exception stopping the server
+[03:18:24] [Server thread/ERROR]: This crash report has been saved to: /workspaces/el-minecra/servidor_minecraft/./crash-reports/crash-2024-05-22_03.18.24-server.txt
+[03:18:24] [Server thread/INFO]: Stopping server
+[03:18:24] [Server thread/INFO]: Saving worlds
+[03:18:24] [Server thread/ERROR]: Exception stopping the server
 java.lang.NullPointerException: Cannot invoke "aif.w_()" because "$$5" is null
 	at net.minecraft.server.MinecraftServer.a(SourceFile:541) ~[server-1.20.1.jar:?]
 	at net.minecraft.server.MinecraftServer.t(SourceFile:602) ~[server-1.20.1.jar:?]
